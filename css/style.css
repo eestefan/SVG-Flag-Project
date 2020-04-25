@@ -1,0 +1,101 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 48px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+svg {
+  border: 2px solid black;
+}
+
+#the-bahamas {
+  fill: rgb(49,117,137);
+}
+
+#the-bahamas rect:nth-child(2){
+  fill: rgb(246,199,81);
+}
+
+#the-bahamas polygon{
+  fill: rgb(0,0,0);
+}
+
+#germany rect:first-child {
+  fill: rgb(0,0,0);
+}
+
+#germany rect:nth-child(2) {
+  fill: rgb(200,42,29);
+}
+
+#germany rect:last-child {
+  fill: rgb(248,206,70);
+}
+
+#indonesia rect:first-child {
+  fill: rgb(234,50,35);
+}
+
+#indonesia rect:last-child {
+  fill: rgb(255,255,255);
+}
+
+#israel {
+  fill: rgb(255,255,255);
+}
+
+#israel rect:nth-child(2) {
+  fill: rgb(13,60,177);
+}
+
+#israel rect:nth-child(4) {
+  fill: rgb(13,60,177);
+}
+
+#israel polygon{
+  fill: none;
+  stroke: rgb(13,60,177);
+  stroke-width: 15px;
+}
+
+#latvia {
+  fill: rgb(146,56,60);
+}
+
+#latvia rect:nth-child(2) {
+  fill: rgb(255,255,255);
+}
+
+#south-sudan {
+  fill: rgb(255,255,255);
+}
+
+#south-sudan rect:first-child {
+  fill: rgb(0,0,0);
+}
+
+#south-sudan rect:nth-child(3) {
+  fill: rgb(200,47,40);
+}
+
+#south-sudan rect:nth-child(5) {
+  fill: rgb(61,134,60);
+}
+
+#south-sudan polygon:nth-child(6) {
+  fill: rgb(29,73,168);
+}
+
+#south-sudan polygon:last-child {
+  fill: rgb(247,220,75);
+}
